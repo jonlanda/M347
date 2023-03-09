@@ -1,0 +1,6 @@
+{
+  "devDependencies": {
+    "@vue/cli-plugin-typescript": "~4.5.15",
+    "typescript": "^4.9.5"
+  }
+}
