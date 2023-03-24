@@ -1,13 +1,13 @@
-package com.losPendejos.losPendejos;
+package com.losPendejos.backend;
 
 import org.springframework.boot.SpringApplication;
 import org.springframework.boot.autoconfigure.SpringBootApplication;
 
 @SpringBootApplication
-public class LosPendejosApplication {
+public class BackendApplication {
 
 	public static void main(String[] args) {
-		SpringApplication.run(LosPendejosApplication.class, args);
+		SpringApplication.run(BackendApplication.class, args);
 	}
 
 }
