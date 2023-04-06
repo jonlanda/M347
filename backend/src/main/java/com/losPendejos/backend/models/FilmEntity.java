@@ -1,14 +1,11 @@
 package com.losPendejos.backend.models;
 
-import javax.persistence.Entity;
+import javax.persistence.*;
 
-import javax.persistence.ElementCollection;
-import javax.persistence.GeneratedValue;
-import javax.persistence.GenerationType;
-import javax.persistence.Id;
 import java.util.List;
 
 @Entity
+@Table(name = "film", schema = "film")
 public class FilmEntity {
     @Id
     @GeneratedValue(strategy = GenerationType.IDENTITY)

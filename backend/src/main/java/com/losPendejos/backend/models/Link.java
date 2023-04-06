@@ -5,6 +5,7 @@ import javax.persistence.Entity;
 import javax.persistence.*;
 
 @Entity
+@Table(name = "link", schema = "film")
 public class Link {
     @Id
     @GeneratedValue(strategy = GenerationType.IDENTITY)
