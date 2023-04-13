@@ -1,5 +1,7 @@
 package com.losPendejos.backend.models;
 
+import org.springframework.context.annotation.ComponentScan;
+
 import javax.persistence.Entity;
 
 import javax.persistence.*;
@@ -18,6 +20,10 @@ public class Link {
     @ManyToOne
     @JoinColumn(name = "film_id")
     private FilmEntity filmEntity;
+
+    public Link(String linkValue, String language, Boolean subtitles, String subtitleLanguage) {
+    }
+
     public int getId() {
         return id;
     }
